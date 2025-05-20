@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node ./bin/build.js",
+    "dev": "vite",
     "build": "cross-env NODE_ENV=production node ./bin/build.js",
     "lint": "eslint ./src && prettier --check ./src",
     "lint:fix": "eslint ./src --fix",
